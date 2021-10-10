@@ -1,0 +1,179 @@
+/*-- Carousel-Controls-Changed-from-Default-Code --*/
+.carousel-novo .carousel-control.left {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    filter: none;
+    background-repeat: repeat-x;
+}
+
+.carousel-novo .carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    filter: none;
+    background-repeat: repeat-x;
+}
+
+.carousel-novo .carousel-control {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    width: inherit;
+    font-size: 0;
+    color: transparent;
+    text-shadow: none;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+/*-- //Carousel-Controls --*/
+
+.carousel-novo .slider-grid-text .border {
+    width: 100px;
+    border-top: 3px solid #EEE;
+    margin: 0 auto;
+}
+
+.carousel-novo .itenslid {
+    display: block;
+    margin-top: 40px;
+}
+/*-- Slider --*/
+.carousel-novo .slider-grid-bg {
+    height: 75%;
+    width: 700px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 0;
+    bottom: 5%;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.carousel-novo .slider-grid-text {
+    top: 20px;
+    text-align: left;
+}
+
+    .carousel-novo .slider-grid-text .border {
+        width: 100px;
+        border-top: 3px solid #EEE;
+        margin: 0 auto;
+    }
+
+.carousel-novo .itenslid {
+    display: block;
+    margin-top: 40px;
+}
+/*-- //Slider --*/
+/*-- Carousel-Controls-Diamond-Hover-Effect --*/
+.carousel-novo .nav-diamond a {
+    margin: 0 30px;
+}
+
+.carousel-novo .nav-diamond .icon-wrap {
+    position: absolute;
+    height: 100%;
+    z-index: 100;
+}
+
+.carousel-novo .nav-diamond svg.icon {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.carousel-novo .nav-diamond .left-arrow,
+.carousel-novo .right-arrow {
+    position: relative;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    /*border: 3px solid #FFF;*/
+    background: url("https://blob.contato.io/machine-user-images/img-18341-20160708135053.png") no-repeat;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.carousel-novo .carousel-control.left, 
+.carousel-novo .carousel-control.right {
+    background: rgba(0,0,0,0.0) !important;
+}
+
+.carousel-novo .nav-diamond .left-arrow:hover {
+    background: none;
+}
+
+.carousel-novo .nav-diamond .right-arrow {
+    background: url("https://blob.contato.io/machine-user-images/img-18341-20160708135001.png") no-repeat;
+}
+
+    .carousel-novo .nav-diamond .right-arrow:hover {
+        background: none;
+    }
+
+.carousel-novo .nav-diamond img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    /*background-color: #FFF;*/
+    border: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.carousel-novo .nav-diamond a.prev img {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg) scale(2);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg) scale(2);
+}
+
+.carousel-novo .nav-diamond a.next img {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg) scale(2);
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg) scale(2);
+}
+
+.carousel-novo .nav-diamond a:hover div {
+    -webkit-transform: scale(1) rotate(-0deg);
+    transform: scale(1) rotate(-0deg);
+}
+
+.carousel-novo .nav-diamond a.next:hover div {
+    -webkit-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+}
+
+.carousel-novo .nav-diamond a:hover img {
+    opacity: 0.8;
+}
+
+.carousel-novo .nav-diamond a.prev:hover img {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg) scale(1);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg) scale(1);
+}
+
+.carousel-novo .nav-diamond a.next:hover img {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg) scale(1);
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg) scale(1);
+}

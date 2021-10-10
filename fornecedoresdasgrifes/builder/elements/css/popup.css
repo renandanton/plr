@@ -1,0 +1,204 @@
+﻿/*responsive-code*/
+
+@media screen and (min-width:320px) {
+    #boxes .popup, #boxes #dialog, #boxes #popup {
+        width: 90%;
+        left: 5%;
+    }
+
+    .x-close {
+        margin-top: 2px;
+        margin-left: 2px;
+        font-size: 18px !important;
+    }
+
+    #boxes #formulario {
+        width: 73%;
+        left: 4.5%;
+    }
+}
+
+@media screen and (min-width:480px) {
+    #boxes .popup, #boxes #dialog, #boxes #popup {
+        width: 80%;
+        left: 8%;
+    }
+}
+
+@media screen and (min-width:640px) {
+    #boxes .popup, #boxes #dialog, #boxes #popup {
+        left: 10%;
+    }
+
+    #boxes #formulario {
+        width: 73%;
+        left: 4.5%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    #boxes .popup, #boxes #dialog, #boxes #popup {
+        width: 640px;
+        left: 9%;
+    }
+
+    .x-close {
+        margin-top: 2px;
+        margin-left: 5px;
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #boxes .popup, #boxes #dialog, #boxes #popup {
+        left: 19%;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    #boxes .popup, #boxes #dialog, #boxes #popup {
+        left: 25%;
+    }
+
+    #boxes #formulario {
+        width: 43%;
+        left: 28.5%;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #boxes .popup, #boxes #dialog, #boxes #popup {
+        left: 27%;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    #boxes .popup, #boxes #dialog, #boxes #popup {
+        left: 32%;
+    }
+
+    #boxes #formulario {
+        width: 30%;
+        left: 34.5%;
+    }
+}
+
+/*//responsive-code*/
+
+/*pop-up */
+
+.window input {
+    padding-left: 10px;
+    border-radius: 2px;
+}
+
+.window textarea {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.window form {
+    border-top: 0px;
+}
+
+#contact_message {
+    border: 0px;
+}
+
+button#contact_submit {
+    width: 50%;
+    margin: auto;
+}
+/*pop-up */
+
+/*pop-up-automatico*/
+
+#mask {
+    position: absolute;
+    z-index: 9000;
+    background-color: #000;
+    display: none;
+}
+
+#boxes .window {
+    position: absolute;
+    width: 75%;
+    top: 3%;
+    height: auto;
+    display: none;
+    z-index: 9999;
+    padding: 25px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.7);
+    margin: auto;
+}
+
+#boxes .popup {
+    position: absolute;
+    /*width: 640px;*/
+    top: 3%;
+    height: auto;
+    display: none;
+    z-index: 9999999;
+    padding: 25px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.7);
+}
+
+
+#boxes #dialog {
+    /*width: 640px;*/
+    height: auto;
+    position: fixed;
+    margin: auto;
+}
+
+#boxes #popup {
+    /*width: 640px;*/
+    height: auto;
+    position: fixed;
+}
+
+
+.close {
+    /*position: absolute;
+    top: -10px;
+    line-height: 18px;
+    background: #ededed;
+    cursor: pointer;
+    right: -10px;
+    width: 27px;
+    height: 27px;
+    border-radius: 20px;
+    border: 2px solid #fff;*/
+    opacity: 1;
+}
+
+
+    .close:hover {
+        opacity: .7;
+    }
+
+/*pop-exit*/
+
+#boxes #formulario {
+    position: absolute;
+    background: white;
+    top: 3%;
+    padding: 10px 25px 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+    #boxes #formulario span {
+        padding: 20px;
+    }
